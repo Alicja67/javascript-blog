@@ -72,7 +72,7 @@ body {
   font-weight: 400;
   font-size: 104px;
   line-height: 1;
-  text-align: center;
+  text-align: left;
 }
 
 /* Lists */
@@ -117,8 +117,31 @@ body {
 
 .post-tags {
   display: flex;
-  
+
   p {
     margin: 0 10px 0 0;
   }
+}
+
+/* Tags */
+.list.tags li{
+  display: inline-block;
+  margin: 10px;
+}
+a[href^='#tag']{
+text-decoration: none;
+display: inline;
+}
+
+.tag-size-1 {
+  font-size: 100%;
+}
+.tag-size-2 {
+  font-size: 140%;
+}
+.tag-size-3 {
+  font-size: 170%;
+}
+.tag-size-4 {
+  font-size: 200%;
 }
