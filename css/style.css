@@ -63,7 +63,7 @@ body {
   font-weight: 400;
   font-size: 104px;
   line-height: 1;
-  text-align: left;
+  text-align: center;
 }
 
 /* Lists */
@@ -84,6 +84,18 @@ body {
 /* Authors */
 .authors li {
   margin-bottom: 12px;
+}
+
+.authors li a {
+  text-decoration: none;
+}
+
+.authors li .author-size-1 {
+  font-size: 100%;
+}
+
+.authors li .author-size-2 {
+  font-size: 150%;
 }
 
 /* Post */
@@ -120,7 +132,7 @@ a[href^='#tag'] {
 }
 
 .tag-size-1 {
-  font-size: 100%;
+  font-size: 80%;
 }
 
 .tag-size-2 {
@@ -128,10 +140,10 @@ a[href^='#tag'] {
 }
 
 .tag-size-3 {
-  font-size: 170%;
+  font-size: 190%;
 }
 
 .tag-size-4 {
-  font-size: 200%;
+  font-size: 250%;
 }
 /*# sourceMappingURL=style.css.map */

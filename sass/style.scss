@@ -72,7 +72,7 @@ body {
   font-weight: 400;
   font-size: 104px;
   line-height: 1;
-  text-align: left;
+  text-align: center;
 }
 
 /* Lists */
@@ -98,6 +98,15 @@ body {
 .authors {
   li {
     margin-bottom: 12px;
+    a {
+    text-decoration: none;
+    }
+    .author-size-1 {
+      font-size: 100%;
+    }
+    .author-size-2 {
+      font-size: 150%;
+    }
   }
 }
 
@@ -134,14 +143,14 @@ display: inline;
 }
 
 .tag-size-1 {
-  font-size: 100%;
+  font-size: 80%;
 }
 .tag-size-2 {
   font-size: 140%;
 }
 .tag-size-3 {
-  font-size: 170%;
+  font-size: 190%;
 }
 .tag-size-4 {
-  font-size: 200%;
+  font-size: 250%;
 }
